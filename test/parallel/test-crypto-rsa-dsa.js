@@ -25,6 +25,11 @@ const dsaKeyPemEncrypted = fixtures.readKey('dsa_private_encrypted.pem',
 const rsaPkcs8KeyPem = fixtures.readKey('rsa_private_pkcs8.pem');
 const dsaPkcs8KeyPem = fixtures.readKey('dsa_private_pkcs8.pem');
 
+const decryptError = common.hasOpenSSL3 ? {
+  message: 'error:1C800064:Provider routines::bad decrypt',
+  code: 'ERR_OSSL_BAD_DECRYPT',
+  library: 'Provider routines',
+} : {
 const ec = new TextEncoder();
 
 const decryptError = {
@@ -136,19 +141,25 @@ function getBufferCopy(buf) {
   assert.strictEqual(decryptedBufferWithPassword.toString(), input);
 
   // Now with RSA_NO_PADDING. Plaintext needs to match key size.
-  const plaintext = 'x'.repeat(rsaKeySize / 8);
-  encryptedBuffer = crypto.privateEncrypt({
-    padding: crypto.constants.RSA_NO_PADDING,
-    key: rsaKeyPemEncrypted,
-    passphrase: bufferPassword
-  }, Buffer.from(plaintext));
+  // OpenSSL 3.x has a rsa_check_padding that will cause an error if
+  // RSA_NO_PADDING is used.
+  if (!common.hasOpenSSL3) {
+    {
+      const plaintext = 'x'.repeat(rsaKeySize / 8);
+      encryptedBuffer = crypto.privateEncrypt({
+        padding: crypto.constants.RSA_NO_PADDING,
+        key: rsaKeyPemEncrypted,
+        passphrase: bufferPassword
+      }, Buffer.from(plaintext));
 
-  decryptedBufferWithPassword = crypto.publicDecrypt({
-    padding: crypto.constants.RSA_NO_PADDING,
-    key: rsaKeyPemEncrypted,
-    passphrase: bufferPassword
-  }, encryptedBuffer);
-  assert.strictEqual(decryptedBufferWithPassword.toString(), plaintext);
+      decryptedBufferWithPassword = crypto.publicDecrypt({
+        padding: crypto.constants.RSA_NO_PADDING,
+        key: rsaKeyPemEncrypted,
+        passphrase: bufferPassword
+      }, encryptedBuffer);
+      assert.strictEqual(decryptedBufferWithPassword.toString(), plaintext);
+    }
+  }
 
   encryptedBuffer = crypto.publicEncrypt(certPem, bufferToEncrypt);
 
