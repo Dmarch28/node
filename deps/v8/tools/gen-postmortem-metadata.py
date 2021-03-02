@@ -223,9 +223,6 @@ consts_misc = [
         'value': 'SimpleNumberDictionaryShape::kEntrySize' },
 
     { 'name': 'type_JSError__JS_ERROR_TYPE', 'value': 'JS_ERROR_TYPE' },
-
-    { 'name': 'class_SharedFunctionInfo__function_data__Object',
-        'value': 'SharedFunctionInfo::kFunctionDataOffset' },
 ];
 
 #
@@ -263,8 +260,11 @@ extras_accessors = [
     'ExternalString, resource, Object, kResourceOffset',
     'SeqOneByteString, chars, char, kHeaderSize',
     'SeqTwoByteString, chars, char, kHeaderSize',
+    'UncompiledData, inferred_name, String, kInferredNameOffset',
     'UncompiledData, start_position, int32_t, kStartPositionOffset',
     'UncompiledData, end_position, int32_t, kEndPositionOffset',
+    'Script, name, Object, kNameOffset',
+    'Script, line_ends, Object, kLineEndsOffset',
     'SharedFunctionInfo, raw_function_token_offset, int16_t, kFunctionTokenOffsetOffset',
     'SharedFunctionInfo, internal_formal_parameter_count, uint16_t, kFormalParameterCountOffset',
     'SharedFunctionInfo, flags, int, kFlagsOffset',
@@ -622,7 +622,7 @@ def load_fields_from_file(filename):
         #
         prefixes = [ 'ACCESSORS', 'ACCESSORS2', 'ACCESSORS_GCSAFE',
                      'SMI_ACCESSORS', 'ACCESSORS_TO_SMI',
-                     'SYNCHRONIZED_ACCESSORS', 'WEAK_ACCESSORS' ];
+                     'RELEASE_ACQUIRE_ACCESSORS', 'WEAK_ACCESSORS' ];
         prefixes += ([ prefix + "_CHECKED" for prefix in prefixes ] +
                      [ prefix + "_CHECKED2" for prefix in prefixes ])
         current = '';
