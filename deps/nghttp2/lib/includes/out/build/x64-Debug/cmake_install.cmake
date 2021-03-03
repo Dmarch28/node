@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/nghttp2/lib/includes
+# Install script for directory: C:/Users/Steve/source/repos/Dmarch28/node/deps/nghttp2/lib/includes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/StevenSon'd/Source/Repos/Dmarch28/node/deps/nghttp2/lib/includes/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Steve/Source/Repos/Dmarch28/node/deps/nghttp2/lib/includes/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,8 +42,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/nghttp2" TYPE FILE FILES
-    "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/nghttp2/nghttp2.h"
-    "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug/nghttp2/nghttp2ver.h"
+    "C:/Users/Steve/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/nghttp2/nghttp2.h"
+    "C:/Users/Steve/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug/nghttp2/nghttp2ver.h"
     )
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Steve/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

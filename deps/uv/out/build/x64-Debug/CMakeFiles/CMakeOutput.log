@@ -1,6 +1,6 @@
 The system is: Windows - 10.0.19042 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe 
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe 
 Build flags: 
 Id flags:  
 
@@ -21,139 +21,139 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/3.19.20122902-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/3.19.20122902-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d1143 && [1/2] Building C object CMakeFiles\cmTC_d1143.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_d1143.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_449cf && [1/2] Building C object CMakeFiles\cmTC_449cf.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_449cf.exe
 
 
 
 Performing C SOURCE FILE Test UV_LINT_W4 succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b1d82 && [1/2] Building C object CMakeFiles\cmTC_b1d82.dir\src.c.obj
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_84ca6 && [1/2] Building C object CMakeFiles\cmTC_84ca6.dir\src.c.obj
 cl : Command line warning D9025 : overriding '/W3' with '/W4'
-[2/2] Linking C executable cmTC_b1d82.exe
+[2/2] Linking C executable cmTC_84ca6.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_86df9 && [1/2] Building C object CMakeFiles\cmTC_86df9.dir\src.c.obj
-[2/2] Linking C executable cmTC_86df9.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_730b0 && [1/2] Building C object CMakeFiles\cmTC_730b0.dir\src.c.obj
+[2/2] Linking C executable cmTC_730b0.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_982db && [1/2] Building C object CMakeFiles\cmTC_982db.dir\src.c.obj
-[2/2] Linking C executable cmTC_982db.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_909c8 && [1/2] Building C object CMakeFiles\cmTC_909c8.dir\src.c.obj
+[2/2] Linking C executable cmTC_909c8.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c65c3 && [1/2] Building C object CMakeFiles\cmTC_c65c3.dir\src.c.obj
-[2/2] Linking C executable cmTC_c65c3.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f9f70 && [1/2] Building C object CMakeFiles\cmTC_f9f70.dir\src.c.obj
+[2/2] Linking C executable cmTC_f9f70.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c94fa && [1/2] Building C object CMakeFiles\cmTC_c94fa.dir\src.c.obj
-[2/2] Linking C executable cmTC_c94fa.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_61e27 && [1/2] Building C object CMakeFiles\cmTC_61e27.dir\src.c.obj
+[2/2] Linking C executable cmTC_61e27.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_56da3 && [1/2] Building C object CMakeFiles\cmTC_56da3.dir\src.c.obj
-[2/2] Linking C executable cmTC_56da3.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_57497 && [1/2] Building C object CMakeFiles\cmTC_57497.dir\src.c.obj
+[2/2] Linking C executable cmTC_57497.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5be09 && [1/2] Building C object CMakeFiles\cmTC_5be09.dir\src.c.obj
-[2/2] Linking C executable cmTC_5be09.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_eb6d6 && [1/2] Building C object CMakeFiles\cmTC_eb6d6.dir\src.c.obj
+[2/2] Linking C executable cmTC_eb6d6.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_HIDES_LOCAL succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e04fc && [1/2] Building C object CMakeFiles\cmTC_e04fc.dir\src.c.obj
-[2/2] Linking C executable cmTC_e04fc.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_661c0 && [1/2] Building C object CMakeFiles\cmTC_661c0.dir\src.c.obj
+[2/2] Linking C executable cmTC_661c0.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_HIDES_PARAM succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_923d1 && [1/2] Building C object CMakeFiles\cmTC_923d1.dir\src.c.obj
-[2/2] Linking C executable cmTC_923d1.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_758cf && [1/2] Building C object CMakeFiles\cmTC_758cf.dir\src.c.obj
+[2/2] Linking C executable cmTC_758cf.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_HIDES_GLOBAL succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ccf2d && [1/2] Building C object CMakeFiles\cmTC_ccf2d.dir\src.c.obj
-[2/2] Linking C executable cmTC_ccf2d.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7b6ee && [1/2] Building C object CMakeFiles\cmTC_7b6ee.dir\src.c.obj
+[2/2] Linking C executable cmTC_7b6ee.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_352fb && [1/2] Building C object CMakeFiles\cmTC_352fb.dir\src.c.obj
-[2/2] Linking C executable cmTC_352fb.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2b20d && [1/2] Building C object CMakeFiles\cmTC_2b20d.dir\src.c.obj
+[2/2] Linking C executable cmTC_2b20d.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_NO_UNSAFE_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2e695 && [1/2] Building C object CMakeFiles\cmTC_2e695.dir\src.c.obj
-[2/2] Linking C executable cmTC_2e695.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_df710 && [1/2] Building C object CMakeFiles\cmTC_df710.dir\src.c.obj
+[2/2] Linking C executable cmTC_df710.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_WALL succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_99632 && [1/2] Building C object CMakeFiles\cmTC_99632.dir\src.c.obj
-[2/2] Linking C executable cmTC_99632.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0a50e && [1/2] Building C object CMakeFiles\cmTC_0a50e.dir\src.c.obj
+[2/2] Linking C executable cmTC_0a50e.exe
 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_UTF8_MSVC succeeded with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6ed6e && [1/2] Building C object CMakeFiles\cmTC_6ed6e.dir\src.c.obj
-[2/2] Linking C executable cmTC_6ed6e.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_33762 && [1/2] Building C object CMakeFiles\cmTC_33762.dir\src.c.obj
+[2/2] Linking C executable cmTC_33762.exe
 
 
 Source file was:

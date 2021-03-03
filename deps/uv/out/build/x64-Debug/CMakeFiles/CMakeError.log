@@ -1,9 +1,9 @@
 Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER failed with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_965f2 && [1/2] Building C object CMakeFiles\cmTC_965f2.dir\src.c.obj
-FAILED: CMakeFiles/cmTC_965f2.dir/src.c.obj 
-C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DUV_LINT_NO_UNUSED_PARAMETER  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1   -Wno-unused-parameter /showIncludes /FoCMakeFiles\cmTC_965f2.dir\src.c.obj /FdCMakeFiles\cmTC_965f2.dir\ /FS -c src.c
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c9a40 && [1/2] Building C object CMakeFiles\cmTC_c9a40.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_c9a40.dir/src.c.obj 
+C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DUV_LINT_NO_UNUSED_PARAMETER  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1   -Wno-unused-parameter /showIncludes /FoCMakeFiles\cmTC_c9a40.dir\src.c.obj /FdCMakeFiles\cmTC_c9a40.dir\ /FS -c src.c
 cl : Command line error D8021 : invalid numeric argument '/Wno-unused-parameter'
 ninja: build stopped: subcommand failed.
 
@@ -11,11 +11,11 @@ ninja: build stopped: subcommand failed.
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_STRICT_PROTOTYPES failed with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d9610 && [1/2] Building C object CMakeFiles\cmTC_d9610.dir\src.c.obj
-FAILED: CMakeFiles/cmTC_d9610.dir/src.c.obj 
-C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DUV_LINT_STRICT_PROTOTYPES  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1   -Wstrict-prototypes /showIncludes /FoCMakeFiles\cmTC_d9610.dir\src.c.obj /FdCMakeFiles\cmTC_d9610.dir\ /FS -c src.c
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2a388 && [1/2] Building C object CMakeFiles\cmTC_2a388.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_2a388.dir/src.c.obj 
+C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DUV_LINT_STRICT_PROTOTYPES  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1   -Wstrict-prototypes /showIncludes /FoCMakeFiles\cmTC_2a388.dir\src.c.obj /FdCMakeFiles\cmTC_2a388.dir\ /FS -c src.c
 cl : Command line error D8021 : invalid numeric argument '/Wstrict-prototypes'
 ninja: build stopped: subcommand failed.
 
@@ -23,11 +23,11 @@ ninja: build stopped: subcommand failed.
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test UV_LINT_EXTRA failed with the following output:
-Change Dir: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_197c4 && [1/2] Building C object CMakeFiles\cmTC_197c4.dir\src.c.obj
-FAILED: CMakeFiles/cmTC_197c4.dir/src.c.obj 
-C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DUV_LINT_EXTRA  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1   -Wextra /showIncludes /FoCMakeFiles\cmTC_197c4.dir\src.c.obj /FdCMakeFiles\cmTC_197c4.dir\ /FS -c src.c
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9d62e && [1/2] Building C object CMakeFiles\cmTC_9d62e.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_9d62e.dir/src.c.obj 
+C:\PROGRA~2\MICROS~3\2019\PROFES~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe  /nologo -DUV_LINT_EXTRA  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1   -Wextra /showIncludes /FoCMakeFiles\cmTC_9d62e.dir\src.c.obj /FdCMakeFiles\cmTC_9d62e.dir\ /FS -c src.c
 cl : Command line error D8021 : invalid numeric argument '/Wextra'
 ninja: build stopped: subcommand failed.
 

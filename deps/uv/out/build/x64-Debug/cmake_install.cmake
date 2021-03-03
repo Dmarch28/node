@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv
+# Install script for directory: C:/Users/Steve/source/repos/Dmarch28/node/deps/uv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/StevenSon'd/Source/Repos/Dmarch28/node/deps/uv/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Steve/Source/Repos/Dmarch28/node/deps/uv/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,23 +33,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/LICENSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Debug" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/uv.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Debug" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/uv.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Debug" TYPE SHARED_LIBRARY FILES "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/uv.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Debug" TYPE SHARED_LIBRARY FILES "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/uv.dll")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Debug" TYPE STATIC_LIBRARY FILES "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/uv_a.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Debug" TYPE STATIC_LIBRARY FILES "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/uv_a.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/StevenSon'd/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Steve/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
