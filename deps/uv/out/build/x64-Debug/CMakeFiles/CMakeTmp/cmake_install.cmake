@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Administrator/source/repos/Dmarch28/node/deps/nghttp2/lib/includes
+# Install script for directory: C:/Users/Administrator/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Administrator/Source/Repos/Dmarch28/node/deps/nghttp2/lib/includes/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CMAKE_TRY_COMPILE")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,21 +32,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/nghttp2/nghttp2.h;/nghttp2/nghttp2ver.h")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/nghttp2" TYPE FILE FILES
-    "C:/Users/Administrator/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/nghttp2/nghttp2.h"
-    "C:/Users/Administrator/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug/nghttp2/nghttp2ver.h"
-    )
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -55,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Administrator/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Administrator/source/repos/Dmarch28/node/deps/uv/out/build/x64-Debug/CMakeFiles/CMakeTmp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

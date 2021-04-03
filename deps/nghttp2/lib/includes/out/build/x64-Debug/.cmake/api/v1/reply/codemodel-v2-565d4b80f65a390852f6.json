@@ -28,8 +28,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Steve/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug",
-		"source" : "C:/Users/Steve/source/repos/Dmarch28/node/deps/nghttp2/lib/includes"
+		"build" : "C:/Users/Administrator/source/repos/Dmarch28/node/deps/nghttp2/lib/includes/out/build/x64-Debug",
+		"source" : "C:/Users/Administrator/source/repos/Dmarch28/node/deps/nghttp2/lib/includes"
 	},
 	"version" : 
 	{
